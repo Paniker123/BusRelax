@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BusRelax</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="temp_name_station">Name Station</string>
+    <string name="temp_x_0_0">X: = 0.0</string>
+    <string name="temp_y_0_0">Y: = 0.0</string>
+    <string name="temp_10_km">10 km</string>
+    <string name="busstation_contentDescription">busstation</string>
+    <string name="ic_bus_list_item">ic bus list item</string>
+    <string name="bus_station_list">Bus station list</string>
+</resources>

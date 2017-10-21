@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bus_station"
+    android:layout_width="120dp"
+    android:layout_height="80dp"
+    android:background="@drawable/ic_cloud">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_bus"
+            android:contentDescription="@string/busstation_contentDescription" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_station"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_name_station"
+                android:textColor="@color/white"
+                android:textSize="@dimen/cloud_text_size"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/coordinateX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_x_0_0"
+                android:textSize="@dimen/cloud_text_size"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/coordinateY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_y_0_0"
+                android:textSize="@dimen/cloud_text_size"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_10_km"
+                android:textSize="@dimen/cloud_text_size"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
