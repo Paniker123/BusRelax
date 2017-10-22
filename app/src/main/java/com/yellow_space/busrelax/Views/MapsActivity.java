@@ -55,7 +55,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if (l != null) {
             int X = (int) l.getLatitude();
             int Y = (int) l.getLongitude();
-            LatLng personLocation = new LatLng(X, Y);
+            LatLng personLocation = new LatLng(-5, 90);
             mMap.addMarker(new MarkerOptions().position(personLocation).title("It`s you"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(personLocation));
         }
