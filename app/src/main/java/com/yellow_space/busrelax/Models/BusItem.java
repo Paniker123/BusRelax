@@ -9,6 +9,7 @@ public class BusItem {
     private String name;
     private double X;
     private double Y;
+    private double distance;
 
     public BusItem() {
     }
@@ -43,5 +44,13 @@ public class BusItem {
 
     public void setY(double y) {
         Y = y;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(double distance) {
+        this.distance = distance;
     }
 }
