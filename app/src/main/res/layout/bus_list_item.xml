@@ -25,7 +25,7 @@
             android:padding="5dp">
 
             <TextView
-                android:id="@+id/name_station"
+                android:id="@+id/name_station_listItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/temp_name_station"
@@ -33,7 +33,7 @@
                 android:textSize="@dimen/text_bus_list_item" />
 
             <TextView
-                android:id="@+id/distance"
+                android:id="@+id/distanceListItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/temp_10_km"
