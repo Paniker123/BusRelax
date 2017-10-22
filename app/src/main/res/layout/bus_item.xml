@@ -25,7 +25,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/name_station"
+                android:id="@+id/name_station_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/temp_name_station"
@@ -53,7 +53,7 @@
                 />
 
             <TextView
-                android:id="@+id/distance"
+                android:id="@+id/distanceItem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/temp_10_km"
