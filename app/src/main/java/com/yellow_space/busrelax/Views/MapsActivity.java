@@ -53,9 +53,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         GPStraker g = new GPStraker(getApplicationContext());
         Location l = g.getLocation();
         if (l != null) {
-            int X = (int) l.getLatitude();
-            int Y = (int) l.getLongitude();
-            LatLng personLocation = new LatLng(-5, 90);
+            double X =  l.getLatitude();
+            double Y =  l.getLongitude();
+            LatLng personLocation = new LatLng(X, Y);
             mMap.addMarker(new MarkerOptions().position(personLocation).title("It`s you"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(personLocation));
         }
